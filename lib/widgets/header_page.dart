@@ -1,11 +1,14 @@
 import 'package:food_app/utils/colors_const.dart';
 import 'package:flutter/material.dart';
 
-class Header extends StatelessWidget with PreferredSizeWidget {
+class HeaderPage extends StatelessWidget with PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
       centerTitle: true,
+      iconTheme: IconThemeData(
+        color: Colors.black, //change your color here
+      ),
       title: Text(
         'Discovery',
         style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),

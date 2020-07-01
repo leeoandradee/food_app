@@ -11,7 +11,8 @@ class BottomPage extends StatelessWidget {
               Icons.home,
               color: Color(ColorsConst.iconBottomColor),
             ),
-            title: Text("")),
+            title: Text(""),
+          ),
         BottomNavigationBarItem(
             icon: Icon(
               Icons.location_on,
