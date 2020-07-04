@@ -55,7 +55,14 @@ flutter:
     - images/fast-food.png
     - images/hotel.png
     - images/location.png
-    - images/kfc.jpg
+    - images/foods/kfc.jpg
+    - images/foods/bobs.png
+    - images/foods/mc.jpg
+    - images/foods/subway.jpg
+    - images/foods/pizza.jpg
+    - images/banner/japonese_banner.jpg
+    - images/banner/fast_food_banner.jpg
+    - images/banner/pizza_banner.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

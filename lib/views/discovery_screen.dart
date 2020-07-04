@@ -7,7 +7,7 @@ class DiscoveryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: HeaderPage(),
+      appBar: HeaderPage("Discovery"),
       body: DiscoveryCard(),
       bottomNavigationBar: BottomPage(),
     );
